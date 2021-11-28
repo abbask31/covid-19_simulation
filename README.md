@@ -1,3 +1,3 @@
-Covid-19 Simulator
+#Covid-19 Simulator
 
 For a final project in ECS 36C: Data Structures and Algorithms, I generated a simulation that found the fewest number of days certain populations will be completely infected with Covid-19. I designed a shortest path algorithm that was based on the standard principles of Dijkstra’s Shortest Path algorithm. Given a list of people within the population, how often they meet each other, and how many other people they each meet, I created a weighted graph with the population as nodes and the days they meet each other as the weights of the edges. Through this setup, I was able to create an efficient algorithm that successfully found the fewest number of days the population would be infected.
